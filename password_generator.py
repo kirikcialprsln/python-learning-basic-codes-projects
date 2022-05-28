@@ -30,10 +30,10 @@ def generate_random_password():
     ## mixing characters (EN)
     random.shuffle(password)
 
-    ## listeyi stringe ceiviriyorum
-    ## listeyi yazdırma
-    ## convert list to string
-    ## ## print the list
+    ## listeyi stringe ceiviriyorum (TR)
+    ## listeyi yazdırma (TR)
+    ## convert list to string (EN)
+    ## ## print the list (EN)
    
     print("".join(password))
 
