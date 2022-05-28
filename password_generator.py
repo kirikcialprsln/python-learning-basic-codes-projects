@@ -8,7 +8,7 @@ characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 
 def generate_random_password():
     ## kullanicidan olusturulacak parolanin uzunluk  bilgisi (TR)
-    ## Length information of the password to be created from the user (EN)
+    ## length information of the password to be created from the user (EN)
 
     try:
         length = int(input("Enter password length: "))
@@ -21,7 +21,7 @@ def generate_random_password():
     random.shuffle(characters)
 
     ## yukarda kullanicinin belirledigi uzunluk kadar dongu calistirip karakter degiskenin icerisinden random karakter secilip password listesine atiliyor (TR)
-    ##After running the loop for the length determined by the user above, random character is selected from the character variable and added to the password list.(EN)
+    ## after running the loop for the length determined by the user above, random character is selected from the character variable and added to the password list.(EN)
     password = []
     for i in range(length):
         password.append(random.choice(characters))
